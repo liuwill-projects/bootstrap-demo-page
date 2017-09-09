@@ -7,6 +7,9 @@ body {
 .demo-page .btn {
     font-size:16px;
 }
+.demo-page video {
+    width: 100%;
+}
 
 .hidden {
     display: none;
@@ -31,4 +34,25 @@ body {
 .demo-os-post {
     background-image: -webkit-linear-gradient(left,#676cb8 0,#4ebdf2 100%);
     background-image: linear-gradient(to right,#676cb8 0,#4ebdf2 100%);
+}
+
+.ppt-ctrl {
+    position: relative;
+    height: 50px;
+    margin: 0 0 20px;
+    background-color: #fff;
+    border: 1px solid #edf0f2;
+    border-radius: 2px;
+    box-shadow: 0 6px 8px 0 rgba(0,0,0,.03)
+}
+
+.ppt-ctrl > a {
+    width: 50%;
+    color: #4d4d4d;
+    font-size: 18px;
+}
+
+.ppt-ctrl > a:hover, .ppt-ctrl > a:focus {
+    color: #4d4d4d;
+    background: none repeat scroll 0 0 rgba(250, 250, 250, 0.898);
 }
